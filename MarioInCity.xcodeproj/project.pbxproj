@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E83B5001B62809400E2FE68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83B4FF1B62809400E2FE68 /* main.m */; };
+		5E83B5031B62809400E2FE68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83B5021B62809400E2FE68 /* AppDelegate.m */; };
+		5E83B50B1B62809400E2FE68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B50A1B62809400E2FE68 /* Images.xcassets */; };
+		5E83B50E1B62809400E2FE68 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B50C1B62809400E2FE68 /* LaunchScreen.xib */; };
+		5E83B51A1B62809400E2FE68 /* MarioInCityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83B5191B62809400E2FE68 /* MarioInCityTests.m */; };
+		5E83B5311B6281D500E2FE68 /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83B5261B6281D500E2FE68 /* Block.m */; };
+		5E83B5321B6281D500E2FE68 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83B5281B6281D500E2FE68 /* City.m */; };
+		5E83B5331B6281D500E2FE68 /* Cloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83B52A1B6281D500E2FE68 /* Cloud.m */; };
+		5E83B5341B6281D500E2FE68 /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83B52C1B6281D500E2FE68 /* Scene.m */; };
+		5E83B5351B6281D500E2FE68 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83B52E1B6281D500E2FE68 /* Sprite.m */; };
+		5E83B5361B6281D500E2FE68 /* SuperMario.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83B5301B6281D500E2FE68 /* SuperMario.m */; };
+		5E83B53A1B6283F500E2FE68 /* FireBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83B5391B6283F500E2FE68 /* FireBall.m */; };
+		5E83B5441B62842400E2FE68 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B53B1B62842400E2FE68 /* 1.png */; };
+		5E83B5451B62842400E2FE68 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B53C1B62842400E2FE68 /* 2.png */; };
+		5E83B5461B62842400E2FE68 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B53D1B62842400E2FE68 /* 3.png */; };
+		5E83B5471B62842400E2FE68 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B53E1B62842400E2FE68 /* 4.png */; };
+		5E83B5481B62842400E2FE68 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B53F1B62842400E2FE68 /* 5.png */; };
+		5E83B5491B62842400E2FE68 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5401B62842400E2FE68 /* 6.png */; };
+		5E83B54A1B62842400E2FE68 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5411B62842400E2FE68 /* 7.png */; };
+		5E83B54B1B62842400E2FE68 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5421B62842400E2FE68 /* 8.png */; };
+		5E83B54C1B62842400E2FE68 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5431B62842400E2FE68 /* ball.png */; };
+		5E83B5501B62869F00E2FE68 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83B54F1B62869F00E2FE68 /* MainScene.m */; };
+		5E83B5521B6288DA00E2FE68 /* city.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5511B6288DA00E2FE68 /* city.png */; };
+		5E83B5581B6289DE00E2FE68 /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5531B6289DE00E2FE68 /* block.png */; };
+		5E83B5591B6289DE00E2FE68 /* cloud1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5541B6289DE00E2FE68 /* cloud1.png */; };
+		5E83B55A1B6289DE00E2FE68 /* cloud2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5551B6289DE00E2FE68 /* cloud2.png */; };
+		5E83B55B1B6289DE00E2FE68 /* cloud3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5561B6289DE00E2FE68 /* cloud3.png */; };
+		5E83B55C1B6289DE00E2FE68 /* clown.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5571B6289DE00E2FE68 /* clown.png */; };
+		5E83B5701B6292ED00E2FE68 /* 01-main-theme-overworld.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B55E1B6292ED00E2FE68 /* 01-main-theme-overworld.mp3 */; };
+		5E83B5711B6292ED00E2FE68 /* 02-underworld.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B55F1B6292ED00E2FE68 /* 02-underworld.mp3 */; };
+		5E83B5721B6292ED00E2FE68 /* 03-underwater.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5601B6292ED00E2FE68 /* 03-underwater.mp3 */; };
+		5E83B5731B6292ED00E2FE68 /* 04-castle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5611B6292ED00E2FE68 /* 04-castle.mp3 */; };
+		5E83B5741B6292ED00E2FE68 /* 05-starman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5621B6292ED00E2FE68 /* 05-starman.mp3 */; };
+		5E83B5751B6292ED00E2FE68 /* 06-level-complete.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5631B6292ED00E2FE68 /* 06-level-complete.mp3 */; };
+		5E83B5761B6292ED00E2FE68 /* 07-castle-complete.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5641B6292ED00E2FE68 /* 07-castle-complete.mp3 */; };
+		5E83B5771B6292ED00E2FE68 /* 08-you-re-dead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5651B6292ED00E2FE68 /* 08-you-re-dead.mp3 */; };
+		5E83B5781B6292ED00E2FE68 /* 09-game-over.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5661B6292ED00E2FE68 /* 09-game-over.mp3 */; };
+		5E83B5791B6292ED00E2FE68 /* 10-game-over-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5671B6292ED00E2FE68 /* 10-game-over-2.mp3 */; };
+		5E83B57A1B6292ED00E2FE68 /* 11-into-the-tunnel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5681B6292ED00E2FE68 /* 11-into-the-tunnel.mp3 */; };
+		5E83B57B1B6292ED00E2FE68 /* 12-ending.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5691B6292ED00E2FE68 /* 12-ending.mp3 */; };
+		5E83B57C1B6292ED00E2FE68 /* 13-hurry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B56A1B6292ED00E2FE68 /* 13-hurry.mp3 */; };
+		5E83B57D1B6292ED00E2FE68 /* 14-hurry-underground-.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B56B1B6292ED00E2FE68 /* 14-hurry-underground-.mp3 */; };
+		5E83B57E1B6292ED00E2FE68 /* 15-hurry-underwater-.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B56C1B6292ED00E2FE68 /* 15-hurry-underwater-.mp3 */; };
+		5E83B57F1B6292ED00E2FE68 /* 16-hurry-castle-.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B56D1B6292ED00E2FE68 /* 16-hurry-castle-.mp3 */; };
+		5E83B5801B6292ED00E2FE68 /* 17-hurry-starman-.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B56E1B6292ED00E2FE68 /* 17-hurry-starman-.mp3 */; };
+		5E83B5811B6292ED00E2FE68 /* 18-hurry-overworld-.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B56F1B6292ED00E2FE68 /* 18-hurry-overworld-.mp3 */; };
+		5E83B5831B62932100E2FE68 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E83B5821B62932100E2FE68 /* AVFoundation.framework */; };
+		5E83B5851B62998F00E2FE68 /* marioKilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5841B62998F00E2FE68 /* marioKilled.png */; };
+		5E83B5871B62AEC700E2FE68 /* fireball.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E83B5861B62AEC700E2FE68 /* fireball.png */; };
+		5E9C90A71B63F54B00AFAE2E /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E9C90A61B63F54B00AFAE2E /* gameover.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E83B5141B62809400E2FE68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E83B4F21B62809400E2FE68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E83B4F91B62809400E2FE68;
+			remoteInfo = MarioInCity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E83B4FA1B62809400E2FE68 /* MarioInCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarioInCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E83B4FE1B62809400E2FE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E83B4FF1B62809400E2FE68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E83B5011B62809400E2FE68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E83B5021B62809400E2FE68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E83B50A1B62809400E2FE68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E83B50D1B62809400E2FE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5E83B5131B62809400E2FE68 /* MarioInCityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioInCityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E83B5181B62809400E2FE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E83B5191B62809400E2FE68 /* MarioInCityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarioInCityTests.m; sourceTree = "<group>"; };
+		5E83B5251B6281D500E2FE68 /* Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block.h; sourceTree = "<group>"; };
+		5E83B5261B6281D500E2FE68 /* Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Block.m; sourceTree = "<group>"; };
+		5E83B5271B6281D500E2FE68 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		5E83B5281B6281D500E2FE68 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		5E83B5291B6281D500E2FE68 /* Cloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cloud.h; sourceTree = "<group>"; };
+		5E83B52A1B6281D500E2FE68 /* Cloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cloud.m; sourceTree = "<group>"; };
+		5E83B52B1B6281D500E2FE68 /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		5E83B52C1B6281D500E2FE68 /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
+		5E83B52D1B6281D500E2FE68 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		5E83B52E1B6281D500E2FE68 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
+		5E83B52F1B6281D500E2FE68 /* SuperMario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperMario.h; sourceTree = "<group>"; };
+		5E83B5301B6281D500E2FE68 /* SuperMario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperMario.m; sourceTree = "<group>"; };
+		5E83B5381B6283F500E2FE68 /* FireBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireBall.h; sourceTree = "<group>"; };
+		5E83B5391B6283F500E2FE68 /* FireBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireBall.m; sourceTree = "<group>"; };
+		5E83B53B1B62842400E2FE68 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		5E83B53C1B62842400E2FE68 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		5E83B53D1B62842400E2FE68 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		5E83B53E1B62842400E2FE68 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		5E83B53F1B62842400E2FE68 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		5E83B5401B62842400E2FE68 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		5E83B5411B62842400E2FE68 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		5E83B5421B62842400E2FE68 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		5E83B5431B62842400E2FE68 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		5E83B54E1B62869F00E2FE68 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		5E83B54F1B62869F00E2FE68 /* MainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScene.m; sourceTree = "<group>"; };
+		5E83B5511B6288DA00E2FE68 /* city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = city.png; sourceTree = "<group>"; };
+		5E83B5531B6289DE00E2FE68 /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block.png; sourceTree = "<group>"; };
+		5E83B5541B6289DE00E2FE68 /* cloud1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud1.png; sourceTree = "<group>"; };
+		5E83B5551B6289DE00E2FE68 /* cloud2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud2.png; sourceTree = "<group>"; };
+		5E83B5561B6289DE00E2FE68 /* cloud3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud3.png; sourceTree = "<group>"; };
+		5E83B5571B6289DE00E2FE68 /* clown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clown.png; sourceTree = "<group>"; };
+		5E83B55E1B6292ED00E2FE68 /* 01-main-theme-overworld.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01-main-theme-overworld.mp3"; sourceTree = "<group>"; };
+		5E83B55F1B6292ED00E2FE68 /* 02-underworld.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02-underworld.mp3"; sourceTree = "<group>"; };
+		5E83B5601B6292ED00E2FE68 /* 03-underwater.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03-underwater.mp3"; sourceTree = "<group>"; };
+		5E83B5611B6292ED00E2FE68 /* 04-castle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04-castle.mp3"; sourceTree = "<group>"; };
+		5E83B5621B6292ED00E2FE68 /* 05-starman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05-starman.mp3"; sourceTree = "<group>"; };
+		5E83B5631B6292ED00E2FE68 /* 06-level-complete.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06-level-complete.mp3"; sourceTree = "<group>"; };
+		5E83B5641B6292ED00E2FE68 /* 07-castle-complete.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07-castle-complete.mp3"; sourceTree = "<group>"; };
+		5E83B5651B6292ED00E2FE68 /* 08-you-re-dead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08-you-re-dead.mp3"; sourceTree = "<group>"; };
+		5E83B5661B6292ED00E2FE68 /* 09-game-over.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "09-game-over.mp3"; sourceTree = "<group>"; };
+		5E83B5671B6292ED00E2FE68 /* 10-game-over-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10-game-over-2.mp3"; sourceTree = "<group>"; };
+		5E83B5681B6292ED00E2FE68 /* 11-into-the-tunnel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "11-into-the-tunnel.mp3"; sourceTree = "<group>"; };
+		5E83B5691B6292ED00E2FE68 /* 12-ending.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "12-ending.mp3"; sourceTree = "<group>"; };
+		5E83B56A1B6292ED00E2FE68 /* 13-hurry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "13-hurry.mp3"; sourceTree = "<group>"; };
+		5E83B56B1B6292ED00E2FE68 /* 14-hurry-underground-.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "14-hurry-underground-.mp3"; sourceTree = "<group>"; };
+		5E83B56C1B6292ED00E2FE68 /* 15-hurry-underwater-.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "15-hurry-underwater-.mp3"; sourceTree = "<group>"; };
+		5E83B56D1B6292ED00E2FE68 /* 16-hurry-castle-.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "16-hurry-castle-.mp3"; sourceTree = "<group>"; };
+		5E83B56E1B6292ED00E2FE68 /* 17-hurry-starman-.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "17-hurry-starman-.mp3"; sourceTree = "<group>"; };
+		5E83B56F1B6292ED00E2FE68 /* 18-hurry-overworld-.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "18-hurry-overworld-.mp3"; sourceTree = "<group>"; };
+		5E83B5821B62932100E2FE68 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5E83B5841B62998F00E2FE68 /* marioKilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marioKilled.png; sourceTree = "<group>"; };
+		5E83B5861B62AEC700E2FE68 /* fireball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireball.png; sourceTree = "<group>"; };
+		5E9C90A61B63F54B00AFAE2E /* gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E83B4F71B62809400E2FE68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E83B5831B62932100E2FE68 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E83B5101B62809400E2FE68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E83B4F11B62809400E2FE68 = {
+			isa = PBXGroup;
+			children = (
+				5E83B5821B62932100E2FE68 /* AVFoundation.framework */,
+				5E83B4FC1B62809400E2FE68 /* MarioInCity */,
+				5E83B5161B62809400E2FE68 /* MarioInCityTests */,
+				5E83B4FB1B62809400E2FE68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E83B4FB1B62809400E2FE68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E83B4FA1B62809400E2FE68 /* MarioInCity.app */,
+				5E83B5131B62809400E2FE68 /* MarioInCityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E83B4FC1B62809400E2FE68 /* MarioInCity */ = {
+			isa = PBXGroup;
+			children = (
+				5E83B5011B62809400E2FE68 /* AppDelegate.h */,
+				5E83B5021B62809400E2FE68 /* AppDelegate.m */,
+				5E83B5241B62812D00E2FE68 /* GameCore */,
+				5E83B54D1B62868200E2FE68 /* Scene */,
+				5E83B5371B62824100E2FE68 /* Sprite */,
+				5E83B55D1B6292B500E2FE68 /* Sounds */,
+				5E83B5231B62811C00E2FE68 /* Resources */,
+				5E83B50A1B62809400E2FE68 /* Images.xcassets */,
+				5E83B50C1B62809400E2FE68 /* LaunchScreen.xib */,
+				5E83B4FD1B62809400E2FE68 /* Supporting Files */,
+			);
+			path = MarioInCity;
+			sourceTree = "<group>";
+		};
+		5E83B4FD1B62809400E2FE68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E83B4FE1B62809400E2FE68 /* Info.plist */,
+				5E83B4FF1B62809400E2FE68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E83B5161B62809400E2FE68 /* MarioInCityTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E83B5191B62809400E2FE68 /* MarioInCityTests.m */,
+				5E83B5171B62809400E2FE68 /* Supporting Files */,
+			);
+			path = MarioInCityTests;
+			sourceTree = "<group>";
+		};
+		5E83B5171B62809400E2FE68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E83B5181B62809400E2FE68 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E83B5231B62811C00E2FE68 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E9C90A61B63F54B00AFAE2E /* gameover.png */,
+				5E83B5861B62AEC700E2FE68 /* fireball.png */,
+				5E83B5841B62998F00E2FE68 /* marioKilled.png */,
+				5E83B5531B6289DE00E2FE68 /* block.png */,
+				5E83B5541B6289DE00E2FE68 /* cloud1.png */,
+				5E83B5551B6289DE00E2FE68 /* cloud2.png */,
+				5E83B5561B6289DE00E2FE68 /* cloud3.png */,
+				5E83B5571B6289DE00E2FE68 /* clown.png */,
+				5E83B5511B6288DA00E2FE68 /* city.png */,
+				5E83B53B1B62842400E2FE68 /* 1.png */,
+				5E83B53C1B62842400E2FE68 /* 2.png */,
+				5E83B53D1B62842400E2FE68 /* 3.png */,
+				5E83B53E1B62842400E2FE68 /* 4.png */,
+				5E83B53F1B62842400E2FE68 /* 5.png */,
+				5E83B5401B62842400E2FE68 /* 6.png */,
+				5E83B5411B62842400E2FE68 /* 7.png */,
+				5E83B5421B62842400E2FE68 /* 8.png */,
+				5E83B5431B62842400E2FE68 /* ball.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5E83B5241B62812D00E2FE68 /* GameCore */ = {
+			isa = PBXGroup;
+			children = (
+				5E83B52B1B6281D500E2FE68 /* Scene.h */,
+				5E83B52C1B6281D500E2FE68 /* Scene.m */,
+				5E83B52D1B6281D500E2FE68 /* Sprite.h */,
+				5E83B52E1B6281D500E2FE68 /* Sprite.m */,
+			);
+			name = GameCore;
+			sourceTree = "<group>";
+		};
+		5E83B5371B62824100E2FE68 /* Sprite */ = {
+			isa = PBXGroup;
+			children = (
+				5E83B5381B6283F500E2FE68 /* FireBall.h */,
+				5E83B5391B6283F500E2FE68 /* FireBall.m */,
+				5E83B5251B6281D500E2FE68 /* Block.h */,
+				5E83B5261B6281D500E2FE68 /* Block.m */,
+				5E83B5271B6281D500E2FE68 /* City.h */,
+				5E83B5281B6281D500E2FE68 /* City.m */,
+				5E83B5291B6281D500E2FE68 /* Cloud.h */,
+				5E83B52A1B6281D500E2FE68 /* Cloud.m */,
+				5E83B52F1B6281D500E2FE68 /* SuperMario.h */,
+				5E83B5301B6281D500E2FE68 /* SuperMario.m */,
+			);
+			name = Sprite;
+			sourceTree = "<group>";
+		};
+		5E83B54D1B62868200E2FE68 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				5E83B54E1B62869F00E2FE68 /* MainScene.h */,
+				5E83B54F1B62869F00E2FE68 /* MainScene.m */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		5E83B55D1B6292B500E2FE68 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5E83B55E1B6292ED00E2FE68 /* 01-main-theme-overworld.mp3 */,
+				5E83B55F1B6292ED00E2FE68 /* 02-underworld.mp3 */,
+				5E83B5601B6292ED00E2FE68 /* 03-underwater.mp3 */,
+				5E83B5611B6292ED00E2FE68 /* 04-castle.mp3 */,
+				5E83B5621B6292ED00E2FE68 /* 05-starman.mp3 */,
+				5E83B5631B6292ED00E2FE68 /* 06-level-complete.mp3 */,
+				5E83B5641B6292ED00E2FE68 /* 07-castle-complete.mp3 */,
+				5E83B5651B6292ED00E2FE68 /* 08-you-re-dead.mp3 */,
+				5E83B5661B6292ED00E2FE68 /* 09-game-over.mp3 */,
+				5E83B5671B6292ED00E2FE68 /* 10-game-over-2.mp3 */,
+				5E83B5681B6292ED00E2FE68 /* 11-into-the-tunnel.mp3 */,
+				5E83B5691B6292ED00E2FE68 /* 12-ending.mp3 */,
+				5E83B56A1B6292ED00E2FE68 /* 13-hurry.mp3 */,
+				5E83B56B1B6292ED00E2FE68 /* 14-hurry-underground-.mp3 */,
+				5E83B56C1B6292ED00E2FE68 /* 15-hurry-underwater-.mp3 */,
+				5E83B56D1B6292ED00E2FE68 /* 16-hurry-castle-.mp3 */,
+				5E83B56E1B6292ED00E2FE68 /* 17-hurry-starman-.mp3 */,
+				5E83B56F1B6292ED00E2FE68 /* 18-hurry-overworld-.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E83B4F91B62809400E2FE68 /* MarioInCity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E83B51D1B62809400E2FE68 /* Build configuration list for PBXNativeTarget "MarioInCity" */;
+			buildPhases = (
+				5E83B4F61B62809400E2FE68 /* Sources */,
+				5E83B4F71B62809400E2FE68 /* Frameworks */,
+				5E83B4F81B62809400E2FE68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarioInCity;
+			productName = MarioInCity;
+			productReference = 5E83B4FA1B62809400E2FE68 /* MarioInCity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E83B5121B62809400E2FE68 /* MarioInCityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E83B5201B62809400E2FE68 /* Build configuration list for PBXNativeTarget "MarioInCityTests" */;
+			buildPhases = (
+				5E83B50F1B62809400E2FE68 /* Sources */,
+				5E83B5101B62809400E2FE68 /* Frameworks */,
+				5E83B5111B62809400E2FE68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E83B5151B62809400E2FE68 /* PBXTargetDependency */,
+			);
+			name = MarioInCityTests;
+			productName = MarioInCityTests;
+			productReference = 5E83B5131B62809400E2FE68 /* MarioInCityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E83B4F21B62809400E2FE68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Cuong Trinh";
+				TargetAttributes = {
+					5E83B4F91B62809400E2FE68 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					5E83B5121B62809400E2FE68 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 5E83B4F91B62809400E2FE68;
+					};
+				};
+			};
+			buildConfigurationList = 5E83B4F51B62809400E2FE68 /* Build configuration list for PBXProject "MarioInCity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E83B4F11B62809400E2FE68;
+			productRefGroup = 5E83B4FB1B62809400E2FE68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E83B4F91B62809400E2FE68 /* MarioInCity */,
+				5E83B5121B62809400E2FE68 /* MarioInCityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E83B4F81B62809400E2FE68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E83B5751B6292ED00E2FE68 /* 06-level-complete.mp3 in Resources */,
+				5E83B54B1B62842400E2FE68 /* 8.png in Resources */,
+				5E83B57A1B6292ED00E2FE68 /* 11-into-the-tunnel.mp3 in Resources */,
+				5E83B5581B6289DE00E2FE68 /* block.png in Resources */,
+				5E83B5871B62AEC700E2FE68 /* fireball.png in Resources */,
+				5E83B54A1B62842400E2FE68 /* 7.png in Resources */,
+				5E83B55A1B6289DE00E2FE68 /* cloud2.png in Resources */,
+				5E9C90A71B63F54B00AFAE2E /* gameover.png in Resources */,
+				5E83B5741B6292ED00E2FE68 /* 05-starman.mp3 in Resources */,
+				5E83B54C1B62842400E2FE68 /* ball.png in Resources */,
+				5E83B5801B6292ED00E2FE68 /* 17-hurry-starman-.mp3 in Resources */,
+				5E83B5471B62842400E2FE68 /* 4.png in Resources */,
+				5E83B5461B62842400E2FE68 /* 3.png in Resources */,
+				5E83B5731B6292ED00E2FE68 /* 04-castle.mp3 in Resources */,
+				5E83B57D1B6292ED00E2FE68 /* 14-hurry-underground-.mp3 in Resources */,
+				5E83B55B1B6289DE00E2FE68 /* cloud3.png in Resources */,
+				5E83B5711B6292ED00E2FE68 /* 02-underworld.mp3 in Resources */,
+				5E83B55C1B6289DE00E2FE68 /* clown.png in Resources */,
+				5E83B5441B62842400E2FE68 /* 1.png in Resources */,
+				5E83B50E1B62809400E2FE68 /* LaunchScreen.xib in Resources */,
+				5E83B5481B62842400E2FE68 /* 5.png in Resources */,
+				5E83B5591B6289DE00E2FE68 /* cloud1.png in Resources */,
+				5E83B5781B6292ED00E2FE68 /* 09-game-over.mp3 in Resources */,
+				5E83B57C1B6292ED00E2FE68 /* 13-hurry.mp3 in Resources */,
+				5E83B57B1B6292ED00E2FE68 /* 12-ending.mp3 in Resources */,
+				5E83B5771B6292ED00E2FE68 /* 08-you-re-dead.mp3 in Resources */,
+				5E83B5521B6288DA00E2FE68 /* city.png in Resources */,
+				5E83B5761B6292ED00E2FE68 /* 07-castle-complete.mp3 in Resources */,
+				5E83B5451B62842400E2FE68 /* 2.png in Resources */,
+				5E83B5851B62998F00E2FE68 /* marioKilled.png in Resources */,
+				5E83B5721B6292ED00E2FE68 /* 03-underwater.mp3 in Resources */,
+				5E83B5701B6292ED00E2FE68 /* 01-main-theme-overworld.mp3 in Resources */,
+				5E83B5491B62842400E2FE68 /* 6.png in Resources */,
+				5E83B50B1B62809400E2FE68 /* Images.xcassets in Resources */,
+				5E83B57E1B6292ED00E2FE68 /* 15-hurry-underwater-.mp3 in Resources */,
+				5E83B5791B6292ED00E2FE68 /* 10-game-over-2.mp3 in Resources */,
+				5E83B5811B6292ED00E2FE68 /* 18-hurry-overworld-.mp3 in Resources */,
+				5E83B57F1B6292ED00E2FE68 /* 16-hurry-castle-.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E83B5111B62809400E2FE68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E83B4F61B62809400E2FE68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E83B5341B6281D500E2FE68 /* Scene.m in Sources */,
+				5E83B5311B6281D500E2FE68 /* Block.m in Sources */,
+				5E83B5031B62809400E2FE68 /* AppDelegate.m in Sources */,
+				5E83B5321B6281D500E2FE68 /* City.m in Sources */,
+				5E83B5331B6281D500E2FE68 /* Cloud.m in Sources */,
+				5E83B5351B6281D500E2FE68 /* Sprite.m in Sources */,
+				5E83B53A1B6283F500E2FE68 /* FireBall.m in Sources */,
+				5E83B5361B6281D500E2FE68 /* SuperMario.m in Sources */,
+				5E83B5501B62869F00E2FE68 /* MainScene.m in Sources */,
+				5E83B5001B62809400E2FE68 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E83B50F1B62809400E2FE68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E83B51A1B62809400E2FE68 /* MarioInCityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E83B5151B62809400E2FE68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E83B4F91B62809400E2FE68 /* MarioInCity */;
+			targetProxy = 5E83B5141B62809400E2FE68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E83B50C1B62809400E2FE68 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E83B50D1B62809400E2FE68 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E83B51B1B62809400E2FE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E83B51C1B62809400E2FE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E83B51E1B62809400E2FE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarioInCity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E83B51F1B62809400E2FE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarioInCity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E83B5211B62809400E2FE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MarioInCityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarioInCity.app/MarioInCity";
+			};
+			name = Debug;
+		};
+		5E83B5221B62809400E2FE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MarioInCityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarioInCity.app/MarioInCity";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E83B4F51B62809400E2FE68 /* Build configuration list for PBXProject "MarioInCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E83B51B1B62809400E2FE68 /* Debug */,
+				5E83B51C1B62809400E2FE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E83B51D1B62809400E2FE68 /* Build configuration list for PBXNativeTarget "MarioInCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E83B51E1B62809400E2FE68 /* Debug */,
+				5E83B51F1B62809400E2FE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E83B5201B62809400E2FE68 /* Build configuration list for PBXNativeTarget "MarioInCityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E83B5211B62809400E2FE68 /* Debug */,
+				5E83B5221B62809400E2FE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E83B4F21B62809400E2FE68 /* Project object */;
+}
